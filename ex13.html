@@ -1,0 +1,22 @@
+<script>
+let array = []
+    array[0] = 5
+    array[1] = 10
+    array[2] = 15
+    array[3] = 20
+    array[4] = 25
+let achei = false
+let NumeroUsuario = Number(prompt("digite um numero"))
+
+for (let i = 0; i < array.length; i++){
+    if(NumeroUsuario == array[i]){
+        achei = true
+    }
+}
+
+if(achei){
+    alert("esse numero esta contido no array");
+}else{
+    alert("não esta contido no array")
+    }
+</script>
