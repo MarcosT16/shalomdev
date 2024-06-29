@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <label for="Nome">
+            nome:
+            <input type="text">
+        </label>
+        <br>
+        <br>
+        <label for="Telefone">
+            Telefone:
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+        </label>
+        <br>
+        <br>
+        <label for="Email">
+            email:
+            <input type="email">
+        </label>
+        <br>
+        <br>
+        <label for="Senha">
+            senha:
+            <input type="password">
+        </label>
+        <br>
+        <br>
+        <label for="ConfirmadorDeSenha">
+            ConfirmadorDeSenha:
+            <input type="password">
+        </label>
+    </div>
+    <div id="caixabotoes">
+        <br>
+        <button onclick="logar()">Logar</button>
+        <a href="index.html">
+            Esqueci A Senha
+        </a>
+    </div>
+    <br>
+    <script>
+        function logar()
+        {alert("Cadastro concluído com sucesso")}
+    </script>
+</body>
+
+</html>
